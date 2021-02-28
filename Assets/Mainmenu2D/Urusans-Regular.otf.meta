@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
 guid: f68212a720553d74896f86a6ed3832ae
 TrueTypeFontImporter:
   externalObjects: {}
@@ -20,3 +21,6 @@ TrueTypeFontImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+=======
+guid: f1176464852ab0442bb39e82ab7cdf8d
+>>>>>>> Stashed changes
