@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: KaleMat
   m_Shader: {fileID: 4800000, guid: f7e38193b7f064d7380403618fd8b69e, type: 3}
-  m_ShaderKeywords: _CELPRIMARYMODE_SINGLE _TEXTUREBLENDINGMODE_MULTIPLY _UNITYSHADOWMODE_NONE
+  m_ShaderKeywords: _CELPRIMARYMODE_SINGLE _TEXTUREBLENDINGMODE_MULTIPLY _UNITYSHADOWMODE_COLOR
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -68,23 +68,23 @@ Material:
     - _Blend: 0
     - _BumpScale: 1
     - _CelExtraEnabled: 0
-    - _CelNumSteps: 3
+    - _CelNumSteps: 4
     - _CelPrimaryMode: 1
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _FlatRimEdgeSmoothness: 0
-    - _FlatRimLightAlign: 1
+    - _FlatRimLightAlign: 0.53
     - _FlatRimSize: 0
-    - _FlatSpecularEdgeSmoothness: 0
-    - _FlatSpecularSize: 0.4
+    - _FlatSpecularEdgeSmoothness: 0.38
+    - _FlatSpecularSize: 0
     - _Flatness: 1
     - _FlatnessExtra: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _GradientAngle: 115
+    - _GradientAngle: 75
     - _GradientCenterX: 1.86
     - _GradientCenterY: 0
     - _GradientEnabled: 0
@@ -98,10 +98,10 @@ Material:
     - _Parallax: 0.02
     - _QueueOffset: 0
     - _RimEnabled: 0
-    - _SelfShadingSize: 0.75
-    - _SelfShadingSizeExtra: 0.01
+    - _SelfShadingSize: 0.64
+    - _SelfShadingSizeExtra: 0.61
     - _ShadowEdgeSize: 0.094
-    - _ShadowEdgeSizeExtra: 0
+    - _ShadowEdgeSizeExtra: 0.142
     - _SmoothnessTextureChannel: 0
     - _SpecularEnabled: 0
     - _SpecularHighlights: 1
@@ -110,7 +110,7 @@ Material:
     - _TextureBlendingMode: 0
     - _TextureImpact: 1
     - _UVSec: 0
-    - _UnityShadowMode: 0
+    - _UnityShadowMode: 2
     - _UnityShadowPower: 0.2
     - _UnityShadowSharpness: 1
     - _VertexColorsEnabled: 0
@@ -120,10 +120,10 @@ Material:
     - _ColorDim: {r: 0.08067818, g: 0.21617028, b: 0.3490566, a: 1}
     - _ColorDimCurve: {r: 0.85023, g: 0.85034, b: 0.85045, a: 0.85056}
     - _ColorDimExtra: {r: 0.15806337, g: 0.5354912, b: 0.9056604, a: 1}
-    - _ColorDimSteps: {r: 0.85023, g: 0.85034, b: 0.85045, a: 0.85056}
+    - _ColorDimSteps: {r: 0.11503203, g: 0.31891048, b: 0.5188679, a: 1}
     - _ColorGradient: {r: 0.11503203, g: 0.31891048, b: 0.5188679, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FlatRimColor: {r: 0.11503203, g: 0.31891048, b: 0.5188679, a: 1}
     - _FlatSpecularColor: {r: 0.11503203, g: 0.31891048, b: 0.5188679, a: 1}
     - _OutlineColor: {r: 1, g: 1, b: 1, a: 1}
-    - _UnityShadowColor: {r: 0.85023, g: 0.85034, b: 0.85045, a: 0.85056}
+    - _UnityShadowColor: {r: 0.07409222, g: 0.2115744, b: 0.3490566, a: 1}
